@@ -40,6 +40,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  padding: 15px;
 }
 
 .navbar2 > a {
@@ -58,10 +59,6 @@ ul {
 .email {
   height: auto;
   width: 22px;
-}
-
-.navbar2 {
-  margin: 0 10px 0 10px;
 }
 
 .endnavbar {
