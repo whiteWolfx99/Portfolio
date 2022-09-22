@@ -40,6 +40,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  padding: 15px;
 }
 
 .navbar2 > a {
@@ -60,23 +61,14 @@ ul {
   width: 22px;
 }
 
-.navbar2 h3 {
-  margin: 0 10px 0 10px;
-}
-
 .endnavbar {
   margin-right: 20px;
   align-self: center;
 }
 
-
-
 .hidden {
   display: none;
 }
-
-
-
 
 h1 {
   line-height: 64px;
@@ -113,7 +105,7 @@ h2 {
   line-height: 32px;
 }
 
-.section-oneparagraph{
+.section-oneparagraph {
   font-size: 16px;
   line-height: 24px;
   margin: 12px 20px 50px 20px;
@@ -122,8 +114,6 @@ h2 {
   font-style: normal;
   font-weight: normal;
 }
-
-
 
 .socialmedia {
   margin: 20px 20px 0 0;
