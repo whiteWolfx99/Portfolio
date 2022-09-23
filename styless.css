@@ -13,8 +13,10 @@ header {
 }
 
 body {
+  width: 100%;
   flex-direction: column;
   margin: 0;
+  padding: 0;
   background-color: #1c1a19 !important;
   display: flex;
 }
@@ -52,47 +54,61 @@ img {
 }
 
 .section-one-paragraph {
-  font-size: 16px;
-  line-height: 24px;
-  margin: 12px 20px 50px 20px;
-  color: white;
+  width: 327px;
+  height: 123px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
 }
 
 .Section-one-main-Head {
+  width: 327px;
+  height: 124px;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
   line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0 20px 0 20px;
-  color: #ff6b00;
-  font-family: 'Crete Round', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 56px;
 }
 
 .Section-one-Second-Head {
+  width: 327px;
+  height: 27px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
   display: flex;
   align-items: center;
+  color: #fff5e1;
   flex: none;
   order: 1;
   flex-grow: 0;
-  margin: 12px 20px 0 20px;
-  color: #fff5e1;
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 32px;
 }
 
 .Section-one-SocialMedia {
-  margin: 20px 20px 0 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  width: 200px;
+  height: 40px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
   gap: 20px;
-  display: inline-flex;
   list-style-type: none;
 }
 
@@ -102,13 +118,13 @@ img {
 }
 
 .Section-two-Title {
-  width: 327px;
-  height: 83px;
+  padding-top: 80px;
   font-family: 'Crete Round', sans-serif;
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
   display: flex;
+  text-align: center;
   align-items: center;
   color: #1c1a19;
   justify-content: center;
@@ -119,7 +135,6 @@ img {
   flex-direction: row;
   align-items: center;
   padding: 0;
-  gap: 12px;
   width: 297px;
   height: 40px;
   flex: none;
@@ -157,6 +172,9 @@ img {
 
 .Section-two-Images {
   list-style-type: none;
+  width: 327px;
+  text-align: center;
+  padding: 0 20px;
 }
 
 .Section-two-Single-Skills {
