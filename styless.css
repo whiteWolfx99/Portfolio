@@ -260,7 +260,7 @@ img {
 }
 
 .Project-Card-Single-skills {
-  float: right;
+  float: left;
   margin-right: 13px;
   background: rgba(255, 255, 255, 0.24);
   padding: 15px;
