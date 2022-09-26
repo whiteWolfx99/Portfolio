@@ -251,9 +251,6 @@ img {
 }
 
 .Project-Card-skills {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
   padding: 0 40px;
   gap: 12px;
   flex: none;
@@ -263,6 +260,8 @@ img {
 }
 
 .Project-Card-Single-skills {
+  float: left;
+  margin-right: 13px;
   background: rgba(255, 255, 255, 0.24);
   padding: 15px;
   color: white;
