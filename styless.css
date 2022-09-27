@@ -111,6 +111,9 @@ img {
 .Section-two {
   background-color: #fff;
   padding: 20px 20px 80px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .Section-two-Title {
@@ -406,95 +409,103 @@ img {
   margin-left: 45px;
 }
 
-.Section-Gray-Lines {
-  width: 95%;
-  height: 1px;
-  margin: 15px 0 20px 10px;
-}
-
-
 .Section-four {
   background-color: white;
-  color: #172b4d;
-  padding-top: 70px;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  text-align: center;
 }
 
-.Section-four-title {
-  display: flex;
-  color: #172b4d;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 32px;
-  line-height: 44px;
-  margin: 0 0 30px 0;
-}
-
-.Section-four-buttom {
-  display: flex;
-  padding: 12px;
-  background: #FF6B00;
-  flex-grow: 0;
+.Section-four-Title {
+  margin: 120px 24px 58px 24px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  align-items: center;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172B4D;
   text-align: center;
-  color: #FFFFFF;
-  justify-content: center;
-  margin: 20px auto 140px auto;
 }
 
-.Section-four input {
-  margin: 0 25px 0 25px;
+.Section-four-Contact-Form {
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  align-items: center;
+}
+
+.Section-four-FullName {
   width: 90%;
   border: none;
-  padding: 15px;
+  border-bottom: solid  #DBD8D7;
+  font-family: 'Inter';
+  font-style: normal;
+  color: #979493;
+  padding: 12px;
+  margin-bottom: 24px;
 }
 
-.Section-four_Textarea {
-  padding: 15px;
-  width: 80%;
+.Section-four-Email {
+  width: 90%;
   border: none;
-  background-color: #fbf8f7;
-  border-radius: 8px;
+  border-bottom: solid  #DBD8D7;
+  font-family: 'Inter';
+  font-style: normal;
+  color: #979493;
+  padding: 12px;
+  margin-bottom: 24px;
+}
+
+.Section-four-message {
+  background: #FBF8F7;
+  border: none;
+  width: 90%;
+  border-bottom: solid  #DBD8D7;
+  font-family: 'Inter';
+  font-style: normal;
+  color: #979493;
+  padding: 12px;
+  margin-bottom: 24px;
+}
+
+.Section-four-Buttom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 131px;
+  height: 48px;
+  background: #FF6B00;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  color: white;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 24px;
+  margin-bottom: 120px;
+}
+
+.Section-Gray-Lines {
+  width: 100%;
 }
 
 .Section-four-socialmedia {
   display: flex;
-  flex-direction: row;
-  list-style: none;
-  justify-content: center;
-}
-
-.Section-four-socialmedia-img {
-  width: 60px;
-  height: auto;
+  list-style-type: none;
+  margin: 15px 0 0 0;
+  padding: 0;
 }
 
 .Iphone_Line {
-  display: block;
-  width: 134px;
-  height: 5px;
-  margin: 23px auto;
+  padding: 21px 0 8px 0;
 }
 
-.Section-four_underlines {
-  width: 90%;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  height: 1px;
-  display: block;
-  margin: 0 10px 0 20px;
-  font-size: 15px;
-  line-height: 24px;
-  text-align: center;
-  text-align: center;
-  justify-content: center;
+button:hover {
+  background-color: #FFf5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
 }
