@@ -418,7 +418,7 @@ img {
 
 .Section-four-Title {
   margin: 120px 24px 58px 24px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -438,7 +438,7 @@ img {
   width: 90%;
   border: none;
   border-bottom: solid  #dbd8d7;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   color: #979493;
   padding: 12px;
@@ -449,7 +449,7 @@ img {
   width: 90%;
   border: none;
   border-bottom: solid  #dbd8d7;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   color: #979493;
   padding: 12px;
@@ -461,7 +461,7 @@ img {
   border: none;
   width: 90%;
   border-bottom: solid  #dbd8d7;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   color: #979493;
   padding: 12px;
@@ -481,7 +481,7 @@ img {
   order: 3;
   flex-grow: 0;
   color: white;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 17px;
