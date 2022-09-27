@@ -423,21 +423,21 @@ img {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #172B4D;
+  color: #172b4d;
   text-align: center;
 }
 
 .Section-four-Contact-Form {
   display: flex;
   flex-direction: column;
-  width:100%;
+  width: 100%;
   align-items: center;
 }
 
 .Section-four-FullName {
   width: 90%;
   border: none;
-  border-bottom: solid  #DBD8D7;
+  border-bottom: solid  #dbd8d7;
   font-family: 'Inter';
   font-style: normal;
   color: #979493;
@@ -448,7 +448,7 @@ img {
 .Section-four-Email {
   width: 90%;
   border: none;
-  border-bottom: solid  #DBD8D7;
+  border-bottom: solid  #dbd8d7;
   font-family: 'Inter';
   font-style: normal;
   color: #979493;
@@ -457,10 +457,10 @@ img {
 }
 
 .Section-four-message {
-  background: #FBF8F7;
+  background: #fbf8f7;
   border: none;
   width: 90%;
-  border-bottom: solid  #DBD8D7;
+  border-bottom: solid  #dbd8d7;
   font-family: 'Inter';
   font-style: normal;
   color: #979493;
@@ -476,7 +476,7 @@ img {
   gap: 10px;
   width: 131px;
   height: 48px;
-  background: #FF6B00;
+  background: #ff6b00;
   flex: none;
   order: 3;
   flex-grow: 0;
@@ -505,7 +505,7 @@ img {
 }
 
 button:hover {
-  background-color: #FFf5e1;
+  background-color: #fff5e1;
   color: #f55800;
   border: 1px solid #f55800;
 }
