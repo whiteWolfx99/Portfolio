@@ -7,7 +7,7 @@ header {
   top: 0;
   background-color: #3c3a39;
   color: white;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
 }
@@ -52,7 +52,7 @@ img {
 .section-one-paragraph {
   width: 327px;
   height: 123px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -66,7 +66,7 @@ img {
 .Section-one-main-Head {
   width: 327px;
   height: 124px;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -81,7 +81,7 @@ img {
 .Section-one-Second-Head {
   width: 327px;
   height: 27px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -111,12 +111,15 @@ img {
 .Section-two {
   background-color: #fff;
   padding: 20px 20px 80px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .Section-two-Title {
   width: 327px;
   height: 83px;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -146,7 +149,7 @@ img {
 .Section-two-paragraph {
   width: 327px;
   height: 147px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -158,7 +161,7 @@ img {
 }
 
 .Section-two-Subtitle {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -203,7 +206,7 @@ img {
   flex: none;
   order: 3;
   flex-grow: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -251,9 +254,6 @@ img {
 }
 
 .Project-Card-skills {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
   padding: 0 40px;
   gap: 12px;
   flex: none;
@@ -263,10 +263,12 @@ img {
 }
 
 .Project-Card-Single-skills {
+  float: left;
+  margin: 0 13px 0 0;
   background: rgba(255, 255, 255, 0.24);
   padding: 15px;
   color: white;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -292,7 +294,7 @@ img {
 }
 
 .Section-Three-Paragraph {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -306,7 +308,7 @@ img {
 }
 
 .Section-Three-Title {
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 72px;
@@ -319,7 +321,7 @@ img {
 }
 
 .Section-Three-First-Line {
-  font-family: 'InaiMathi', sans-serif;
+  font-family: "InaiMathi", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -348,7 +350,7 @@ img {
 }
 
 .Section-Three-subline {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -368,7 +370,7 @@ img {
 }
 
 .Section-Three-Main-Single-Source {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 28px;
@@ -407,8 +409,103 @@ img {
   margin-left: 45px;
 }
 
+.Section-four {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Section-four-Title {
+  margin: 120px 24px 58px 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  text-align: center;
+}
+
+.Section-four-Contact-Form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.Section-four-FullName {
+  width: 90%;
+  border: none;
+  border-bottom: solid  #dbd8d7;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  color: #979493;
+  padding: 12px;
+  margin-bottom: 24px;
+}
+
+.Section-four-Email {
+  width: 90%;
+  border: none;
+  border-bottom: solid  #dbd8d7;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  color: #979493;
+  padding: 12px;
+  margin-bottom: 24px;
+}
+
+.Section-four-message {
+  background: #fbf8f7;
+  border: none;
+  width: 90%;
+  border-bottom: solid  #dbd8d7;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  color: #979493;
+  padding: 12px;
+  margin-bottom: 24px;
+}
+
+.Section-four-Buttom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 131px;
+  height: 48px;
+  background: #ff6b00;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 24px;
+  margin-bottom: 120px;
+}
+
 .Section-Gray-Lines {
-  width: 95%;
-  height: 1px;
-  margin: 15px 0 20px 10px;
+  width: 100%;
+}
+
+.Section-four-socialmedia {
+  display: flex;
+  list-style-type: none;
+  margin: 15px 0 0 0;
+  padding: 0;
+}
+
+.Iphone_Line {
+  padding: 21px 0 8px 0;
+}
+
+button:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
 }
