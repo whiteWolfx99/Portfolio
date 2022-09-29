@@ -10,6 +10,56 @@ header {
   font-weight: bold;
 }
 
+h1 {
+  transform: translate(0);
+  transition-duration: 0.5s;
+}
+
+h2 {
+  transform: translate(0);
+  transition-duration: 0.5s;
+}
+
+h3 {
+  transform: translate(0);
+  transition-duration: 0.5s;
+}
+
+p {
+  transform: translate(0);
+  transition-duration: 0.5s;
+}
+
+img {
+  transform: scale(1);
+  transition-duration: 0.5s;
+}
+
+img:hover {
+  transform: scale(1.05);
+  transition-duration: 0.5s;
+}
+
+h1:hover {
+  transform: translate(32px, 10px);
+  transition-duration: 0.5s;
+}
+
+h2:hover {
+  transform: translate(32px, 10px);
+  transition-duration: 0.5s;
+}
+
+h3:hover {
+  transform: translate(32px, 10px);
+  transition-duration: 0.5s;
+}
+
+p:hover {
+  transform: translate(32px, 10px);
+  transition-duration: 0.5s;
+}
+
 body {
   width: 100%;
   flex-direction: column;
@@ -472,7 +522,7 @@ button {
 
 .Section-four-Title {
   margin: 120px 24px 58px 24px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -491,8 +541,8 @@ button {
 .Section-four-FullName {
   width: 90%;
   border: none;
-  border-bottom: solid  #dbd8d7;
-  font-family: 'Inter', sans-serif;
+  border-bottom: solid #dbd8d7;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   color: #979493;
   padding: 12px;
@@ -502,8 +552,8 @@ button {
 .Section-four-Email {
   width: 90%;
   border: none;
-  border-bottom: solid  #dbd8d7;
-  font-family: 'Inter', sans-serif;
+  border-bottom: solid #dbd8d7;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   color: #979493;
   padding: 12px;
@@ -514,8 +564,8 @@ button {
   background: #fbf8f7;
   border: none;
   width: 90%;
-  border-bottom: solid  #dbd8d7;
-  font-family: 'Inter', sans-serif;
+  border-bottom: solid #dbd8d7;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   color: #979493;
   padding: 12px;
@@ -535,7 +585,7 @@ button {
   order: 3;
   flex-grow: 0;
   color: white;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 17px;
@@ -562,6 +612,40 @@ button:hover {
   background-color: #fff5e1;
   color: #f55800;
   border: 1px solid #f55800;
+  animation: wiggle 2s linear infinite;
+}
+
+/* Keyframes */
+@keyframes wiggle {
+  0%,
+  7% {
+    transform: rotateZ(0);
+  }
+
+  15% {
+    transform: rotateZ(-15deg);
+  }
+
+  20% {
+    transform: rotateZ(10deg);
+  }
+
+  25% {
+    transform: rotateZ(-10deg);
+  }
+
+  30% {
+    transform: rotateZ(6deg);
+  }
+
+  35% {
+    transform: rotateZ(-4deg);
+  }
+
+  40%,
+  100% {
+    transform: rotateZ(0);
+  }
 }
 
 .Header-Desktop-menu {
