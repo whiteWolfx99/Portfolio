@@ -1,10 +1,8 @@
 header {
   font-size: 18px;
   line-height: 24px;
-  position: absolute;
-  width: 100%;
-  left: 0;
-  top: 0;
+  padding: 0;
+  margin: 0;
   background-color: #3e3c3c;
   color: white;
   font-family: "Roboto", sans-serif;
@@ -19,6 +17,7 @@ body {
   padding: 0;
   background-color: #1c1a19 !important;
   display: flex;
+  overflow-x: hidden;
 }
 
 button {
@@ -30,7 +29,8 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 15px;
+  padding: 0;
+  margin: 0;
 }
 
 .endnavbar {
@@ -570,6 +570,8 @@ button:hover {
 
 .header-hamburger {
   display: flex;
+  margin: 0 20px 0 0;
+  padding: 15px 0 15px 0;
 }
 
 .section-two-center-2 {
@@ -584,6 +586,13 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.Header-logo {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 0 50px;
+  padding: 10px 0 10px 0;
 }
 
 @media (min-width: 1000px) {
@@ -605,6 +614,7 @@ button:hover {
     margin: 0;
     padding: 0;
     background-color: #1c1a19 !important;
+    overflow-x: hidden;
   }
 
   button {
@@ -616,8 +626,7 @@ button:hover {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    padding: 26px;
-    width: 100%;
+    padding: 0;
     margin: 0;
   }
 
@@ -625,6 +634,7 @@ button:hover {
     display: flex;
     flex-direction: row;
     margin: 0 0 0 90px;
+    padding: 15px 0 15px 0;
   }
 
   .Header-nameofmenu {
@@ -632,11 +642,11 @@ button:hover {
     flex-direction: row;
     gap: 30px;
     margin-right: 90px;
-    width: 100%;
   }
 
   .Header-Desktop-menu {
     display: flex;
+    padding: 15px 0 15px 0;
   }
 
   .header-hamburger {
@@ -696,6 +706,7 @@ button:hover {
     font-weight: 400;
     font-size: 20px;
     margin: 0;
+    width: 500px;
     padding: 24px 0 0 0;
     line-height: 24px;
     color: #f4f5f7;
