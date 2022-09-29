@@ -10,6 +10,56 @@ header {
   font-weight: bold;
 }
 
+img:hover {
+  transform: scale(1.05);
+  transition-duration: 0.5s;
+}
+
+img {
+  transform: scale(1);
+  transition-duration: 0.5s;
+}
+
+h1:hover {
+  transform: translate(32px, 10px);
+  transition-duration: 0.5s;
+}
+
+h2:hover {
+  transform: translate(32px, 10px);
+  transition-duration: 0.5s;
+}
+
+h3:hover {
+  transform: translate(32px, 10px);
+  transition-duration: 0.5s; 
+}
+
+p:hover {
+  transform: translate(32px, 10px);
+  transition-duration: 0.5s;
+}
+
+h1 {
+  transform: translate(0);
+  transition-duration: 0.5s;
+}
+
+h2 {
+  transform: translate(0);
+  transition-duration: 0.5s;
+}
+
+h3 {
+  transform: translate(0);
+  transition-duration: 0.5s; 
+}
+
+p {
+  transform: translate(0);
+  transition-duration: 0.5s;
+}
+
 body {
   width: 100%;
   flex-direction: column;
