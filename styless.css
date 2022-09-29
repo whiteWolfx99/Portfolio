@@ -10,6 +10,37 @@ header {
   font-weight: bold;
 }
 
+/* Animation property */
+button:hover {
+  animation: wiggle 2s linear infinite;
+}
+
+/* Keyframes */
+@keyframes wiggle {
+  0%,
+  7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%,
+  100% {
+    transform: rotateZ(0);
+  }
+}
 h1 {
   transform: translate(0);
   transition-duration: 0.5s;
@@ -522,7 +553,7 @@ button {
 
 .Section-four-Title {
   margin: 120px 24px 58px 24px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -541,8 +572,8 @@ button {
 .Section-four-FullName {
   width: 90%;
   border: none;
-  border-bottom: solid  #dbd8d7;
-  font-family: 'Inter', sans-serif;
+  border-bottom: solid #dbd8d7;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   color: #979493;
   padding: 12px;
@@ -552,8 +583,8 @@ button {
 .Section-four-Email {
   width: 90%;
   border: none;
-  border-bottom: solid  #dbd8d7;
-  font-family: 'Inter', sans-serif;
+  border-bottom: solid #dbd8d7;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   color: #979493;
   padding: 12px;
@@ -564,8 +595,8 @@ button {
   background: #fbf8f7;
   border: none;
   width: 90%;
-  border-bottom: solid  #dbd8d7;
-  font-family: 'Inter', sans-serif;
+  border-bottom: solid #dbd8d7;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   color: #979493;
   padding: 12px;
@@ -585,7 +616,7 @@ button {
   order: 3;
   flex-grow: 0;
   color: white;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 17px;
