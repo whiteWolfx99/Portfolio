@@ -42,7 +42,7 @@ For the first milestone in the process of creating your portfolio website, you w
 - Frameworks
 - Technologies used
 
-## Live Demo (if available)
+## Live Demo
 
 [Live Demo Link](https://livedemo.com)
 
