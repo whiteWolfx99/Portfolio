@@ -320,16 +320,18 @@ button {
   flex-direction: row;
   justify-content: space-between;
   width: 80%;
-  color: #fff;
-  font-size: 30px;
+  color: #ffffff;
+  background-color: none;
+  font-size: 1.875rem;
 }
 
 .Project-Card-paragraph {
   padding: 0 15px 15px 15px;
   font-weight: 400;
-  font-size: 26px;
+  font-size: 1.625rem;
   line-height: 24px;
-  color: #fff;
+  background-color: none;
+  color: #FFFFFF;
   flex: none;
   order: 1;
   flex-grow: 0;
