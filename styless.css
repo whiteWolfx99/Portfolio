@@ -307,9 +307,7 @@ button {
 
 .Project-Card-Works {
   width: 100%;
-  background-size: cover;
-  background-position: center center;
-  background-image: url(./images/ImgsPlaceholder.png);
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(./images/ImgsPlaceholder.png);
   display: flex;
   flex-direction: column;
 }
