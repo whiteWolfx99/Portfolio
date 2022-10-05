@@ -320,7 +320,7 @@ button {
   flex-direction: row;
   justify-content: space-between;
   width: 80%;
-  color: #ffffff;
+  color: #000000;
   background-color: none;
   font-size: 1.875rem;
 }
@@ -331,7 +331,7 @@ button {
   font-size: 1.625rem;
   line-height: 24px;
   background-color: none;
-  color: #FFFFFF;
+  color: #000000;
   flex: none;
   order: 1;
   flex-grow: 0;
