@@ -4,10 +4,16 @@ header {
   padding: 0;
   margin: 0;
   background-color: #3e3c3c;
-  color: white;
+  color: #fff;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
+}
+
+label {
+  width: 90%;
+  display: flex;
+  justify-content: center;
 }
 
 h1 {
@@ -101,7 +107,7 @@ button {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 24px;
   color: #fff;
   flex: none;
@@ -130,7 +136,7 @@ button {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 1.563rem;
   line-height: 32px;
   display: flex;
   align-items: center;
@@ -166,7 +172,7 @@ button {
   font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 40px;
+  font-size: 2.5rem;
   line-height: 52px;
   display: flex;
   text-align: center;
@@ -209,7 +215,7 @@ button {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 24px;
   color: #091e42;
   flex: none;
@@ -221,7 +227,7 @@ button {
   font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 2rem;
   line-height: 44px;
   display: flex;
   align-items: center;
@@ -259,14 +265,14 @@ button {
   gap: 10px;
   width: 124px;
   height: 48px;
-  background: #ff6b00;
+  background: #8f3c00;
   flex: none;
   order: 3;
   flex-grow: 0;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #fff;
@@ -278,7 +284,7 @@ button {
 }
 
 .Section-Two-Projects-row-1-col-1 {
-  padding: 20px;
+  padding: 1.25;
 }
 
 .Section-Two-Projects-row-1-col-2 {
@@ -317,13 +323,13 @@ button {
   justify-content: space-between;
   width: 80%;
   color: #fff;
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 
 .Project-Card-paragraph {
   padding: 0 15px 15px 15px;
   font-weight: 400;
-  font-size: 26px;
+  font-size: 1.625rem;
   line-height: 24px;
   color: #fff;
   flex: none;
@@ -349,7 +355,7 @@ button {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 0.938rem;
   line-height: 20px;
 }
 
@@ -359,9 +365,9 @@ button {
   height: 48px;
   left: 0;
   top: 0;
-  color: white;
+  color: #fff;
   font-size: 20px;
-  background: #ff6b00;
+  background: #8f3c00;
 }
 
 .Section-Three {
@@ -389,7 +395,7 @@ button {
   font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 72px;
+  font-size: 4.5rem;
   line-height: 88px;
   letter-spacing: 0.37px;
   color: #ff6b00;
@@ -435,7 +441,7 @@ button {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 22px;
+  font-size: 1.375rem;
   line-height: 43px;
   display: flex;
   align-items: center;
@@ -455,7 +461,7 @@ button {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 28px;
+  font-size: 1.75rem;
   line-height: 43px;
   display: flex;
   align-items: center;
@@ -470,8 +476,8 @@ button {
   order: 2;
   flex-grow: 0;
   margin: 24px 20px;
-  font-size: 17px;
-  background-color: #ff6b00;
+  font-size: 1.063rem;
+  background-color: #8f3c00;
   color: #fff;
   display: flex;
   flex-direction: row;
@@ -525,7 +531,7 @@ button {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 2rem;
   line-height: 44px;
   color: #172b4d;
   text-align: center;
@@ -580,15 +586,15 @@ button {
   gap: 10px;
   width: 131px;
   height: 48px;
-  background: #ff6b00;
+  background: #8f3c00;
   flex: none;
   order: 3;
   flex-grow: 0;
-  color: white;
+  color: #fff;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 17px;
+  font-size: 1.063rem;
   line-height: 24px;
   margin-bottom: 120px;
 }
@@ -706,6 +712,14 @@ button:hover {
     justify-content: center;
   }
 
+  .padding-left {
+    padding-left: 20px;
+  }
+
+  label {
+    width: 90%;
+  }
+
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -765,7 +779,7 @@ button:hover {
     font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 65px;
+    font-size: 4.063rem;
     line-height: 64px;
     letter-spacing: 0.37px;
     color: #f55800;
@@ -776,7 +790,7 @@ button:hover {
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 1.563rem;
     line-height: 32px;
     color: #fff5e1;
     padding: 24px 0 0 0;
@@ -788,7 +802,7 @@ button:hover {
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25rem;
     margin: 0;
     width: 500px;
     padding: 24px 0 0 0;
@@ -819,7 +833,7 @@ button:hover {
     font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 2.5rem;
     line-height: 52px;
     display: flex;
     text-align: center;
@@ -892,7 +906,7 @@ button:hover {
     font-family: "Crete Round", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 2rem;
     line-height: 44px;
     display: flex;
     align-items: center;
@@ -930,7 +944,7 @@ button:hover {
     gap: 10px;
     width: 124px;
     height: 48px;
-    background: #ff6b00;
+    background: #8f3c00;
     flex: none;
     order: 3;
     flex-grow: 0;
@@ -967,7 +981,7 @@ button:hover {
 
   .Section-Three-Paragraph {
     font-family: "Inter", sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0;
@@ -990,8 +1004,8 @@ button:hover {
   .Section-Three-Buttom {
     order: 2;
     flex-grow: 0;
-    font-size: 17px;
-    background-color: #ff6b00;
+    font-size: 1.063rem;
+    background-color: #8f3c00;
     color: #fff;
     display: flex;
     flex-direction: row;
