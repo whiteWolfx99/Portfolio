@@ -10,6 +10,10 @@ header {
   font-weight: bold;
 }
 
+label {
+  display: none;
+}
+
 h1 {
   transform: translate(0);
   transition-duration: 0.5s;
