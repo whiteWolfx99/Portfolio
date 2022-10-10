@@ -335,7 +335,6 @@ button {
   display: none;
 }
 
-
 .navigation {
   display: flex;
   flex-direction: column;
@@ -770,7 +769,6 @@ button:hover {
   }
 
   .Header-nameofmenu {
-
     display: flex;
     flex-direction: row;
     gap: 30px;
