@@ -323,6 +323,45 @@ button {
   font-size: 1.875rem;
 }
 
+.Navbar-for-mob {
+  width: 100%;
+  height: 100%;
+  background: #3c3a39;
+  position: fixed;
+  z-index: 100;
+}
+
+.hidden {
+  display: none;
+}
+
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 92%;
+  position: absolute;
+  margin-top: 70px;
+  gap: 7px;
+  padding: 20px;
+}
+
+.navigation li {
+  padding: 20px;
+  width: 80%;
+  border-bottom: 1px solid #dfe1e6;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.Navbar-for-mob img {
+  width: 25px;
+  height: 25px;
+  float: right;
+  padding: 20px;
+}
+
 .Project-Card-paragraph {
   padding: 0 15px 15px 15px;
   font-weight: 400;
@@ -576,6 +615,11 @@ button {
   margin-bottom: 24px;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .Section-four-Buttom {
   display: flex;
   flex-direction: row;
@@ -726,6 +770,7 @@ button:hover {
   }
 
   .Header-nameofmenu {
+
     display: flex;
     flex-direction: row;
     gap: 30px;
