@@ -44,6 +44,7 @@ For the first milestone in the process of creating your portfolio website, you w
 
 ## Live Demo
 
+
 [Live Demo Link](https://whitewolfx99.github.io/Portfolio/)
 
 ## Images
