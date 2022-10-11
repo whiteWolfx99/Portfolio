@@ -9,25 +9,42 @@
   </head>
   <body>
     <header>
+      <div id="Navbar-mob" class="Navbar-for-mob hidden">
+        <img id="X-sign" src="./images/close.svg" alt="close" />
+        <ul class="navigation">
+          <li>
+            <a id="navigation-item-po" href="#section-one">Portfolio</a>
+          </li>
+          <li><a id="navigation-item-ab" href="#Section-Three">About</a></li>
+          <li>
+            <a id="navigation-item-co" href="#Section-four">Contact</a>
+          </li>
+        </ul>
+      </div>
       <nav class="navbar">
         <div class="Header-logo">
           <a class="myname">Hevar Hoshang</a>
         </div>
         <div class="Header-Desktop-menu">
           <div class="Header-nameofmenu">
-            <a>Portfolio</a>
-            <a>About</a>
-            <a>Contact</a>
+            <a class="Header-nameofmenus" href="#section-one">Portfolio</a>
+            <a class="Header-nameofmenus" href="#Section-Three">About</a>
+            <a class="Header-nameofmenus" href="#Section-four">Contact</a>
             <img class="endnavbar" src="./images/Union.png" alt="Menu" />
           </div>
         </div>
         <div class="header-hamburger">
-          <img class="endnavbar" src="./images/Menu.svg" alt="Menu" />
+          <img
+            id="header-hamburgerrrs"
+            class="endnavbar"
+            src="./images/Menu.svg"
+            alt="Menu"
+          />
         </div>
       </nav>
     </header>
 
-    <section class="section-one">
+    <section id="section-one" class="section-one">
       <div class="Section-one-flex-col-1">
         <h1 class="Section-one-main-Head">Hey There. I'm Hevar</h1>
         <h2 class="Section-one-Second-Head">I'm a software Developer</h2>
@@ -245,7 +262,7 @@
       <div class="Section-two"></div>
     </section>
 
-    <section class="Section-Three">
+    <section id="Section-Three" class="Section-Three">
       <div class="section-three-col-1">
         <h2 class="Section-Three-Title">About me</h2>
         <p class="Section-Three-Paragraph">
@@ -313,7 +330,7 @@
       </div>
     </section>
 
-    <section class="Section-four">
+    <section id="Section-four" class="Section-four">
       <div class="section-four-flex-col-1">
         <h2 class="Section-four-Title">
           I'm always interested in hearing about new projects, so if you'd like
@@ -410,5 +427,6 @@
       </ul>
       <img class="Iphone_Line" src="./images/Shape.png" alt="" />
     </section>
+    <script src="index.js"></script>
   </body>
 </html>

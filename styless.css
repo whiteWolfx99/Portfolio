@@ -323,6 +323,50 @@ button {
   font-size: 1.875rem;
 }
 
+.Navbar-for-mob {
+  width: 100%;
+  height: 100%;
+  background: #3c3a39;
+  position: fixed;
+  z-index: 100;
+}
+
+.hidden {
+  display: none;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 92%;
+  position: absolute;
+  margin-top: 70px;
+  gap: 7px;
+  padding: 20px;
+}
+
+.navigation li {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff5e1;
+  padding: 20px;
+  width: 80%;
+  border-bottom: 1px solid #6f6c6b;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.Navbar-for-mob img {
+  width: 15px;
+  height: 15px;
+  float: right;
+  padding: 40px 40px 0 0;
+}
+
 .Project-Card-paragraph {
   padding: 0 15px 15px 15px;
   font-weight: 400;
@@ -574,6 +618,11 @@ button {
   color: #979493;
   padding: 12px;
   margin-bottom: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 .Section-four-Buttom {
