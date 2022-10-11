@@ -1,58 +1,46 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Microvers Portfolio project
-
-> This is my second project with microverse which we have to create a portfolio.
-
-## Create A branch Called milestone 
+# Portfolio - mobile menu
 
 ## Learning Objectives
 
-- Understand how to parse a Figma design to create a UI.
-- Flexbox to place elements in the page.
-- Build a personal portfolio site.
-- Use images and backgrounds to enhance the look of the website.
+- Use basic JavaScript syntax.
+- Use JavaScript to manipulate DOM elements.
+- Use JavaScript events.
 
-# Description
+## Description 
 
-For the first milestone in the process of creating your portfolio website, you will:
+For this milestone of your portfolio website, you will implement the mobile menu using your recently acquired JavaScript knowledge.
 
-- set up a new repository and prepare it for development using best practices (e.g. linters).
-- build the first 2 sections of the mobile website using the template you chose in the previous step.
+IMPORTANT NOTE: Read all requirements before you start building your project.
+
+SECOND IMPORTANT NOTE: Remember to reach out to Student Success if you are experiencing difficulties with your partner. Difficulties might range from not hearing from your partner, your partner not having a proper working environment or your partner not following up with agreements on finishing projects. Student Success is here to support you and we can better help you when you reach out early in the week.
 
 ## General requirements
-- Make sure that there are no linter errors:
-   - Linter should be set up correctly for this repository.
-   - Linter result should be green.
-   - There should be no custom changes to linter config.
-- Make sure that you used correct GitHub Flow:
-   - README file should be descriptive.
-   - Commit messages should be meaningful.
-   - Pull Request should have a descriptive title explaining what changes are inside.
-   - Pull Request should have a short summary describing introduced changes in more detail.
-- Make sure that you documented your work in a professional way:
-   - Branch name should describe a feature or action (e.g. 'created_sidebar' or 'added_comments_section').
-   - Pull Request is made from 'feature branch' into the main branch.
+- Make sure that there are no linter errors.
+- Make sure that you used correct GitHub flow.
+- Make sure that you documented your work in a professional way.
 
+## HTML/CSS & JavaScript requirements
+- Follow our list of best practices for HTML & CSS.
+- Follow our list of best practices for JavaScript.
+
+## Project requirements
+- For this project, you should add the JavaScript + HTML + CSS linter.
+- In mobile, implement the following features:
+  - When the user clicks (or taps) the hamburger button, the mobile menu appears.
+  - When the user clicks (or taps) the close (X) button, the mobile menu disappears.
+  - When the user clicks (or taps) any of the mobile menu options, the mobile menu disappears.
+  - When the user clicks (or taps) any of the mobile menu options, a correct part of the page is displayed.
+- You must stick to the design as much as possible (e.g., font, colors, images, text, margins) using the templates in Figma.
 
 ## Built With
 
 - Html
 - Css
+- js
 - Frameworks
 - Technologies used
-
-## Live Demo
-
-
-[Live Demo Link](https://whitewolfx99.github.io/Portfolio/)
-
-## Images
-![1111111](https://user-images.githubusercontent.com/94759531/193645133-590780b6-ba05-402e-a49f-48a3c28d6a65.PNG)
-![222222222](https://user-images.githubusercontent.com/94759531/193645136-504ff7bb-a09c-41cd-b09f-a63beb7e0be7.PNG)
-![33333333](https://user-images.githubusercontent.com/94759531/193645139-dba10b5c-08f5-43d3-a7ce-011d9512717f.PNG)
-![444444](https://user-images.githubusercontent.com/94759531/193645143-1d1a7c53-8b24-4fe1-8d67-f76d6d12e36f.PNG)
-![5555](https://user-images.githubusercontent.com/94759531/193645147-05834cd2-e70b-465c-84ed-29c728478e9d.PNG)
 
 ## Getting Started
 
