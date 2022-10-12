@@ -190,10 +190,6 @@ button {
   order: 1;
 }
 
-.Section-two-underline {
-  width: 60vh;
-}
-
 .Section-two-Skills {
   display: flex;
   flex-direction: row;
@@ -246,11 +242,16 @@ button {
   height: 30px;
   display: flex;
   justify-content: space-between;
-  padding: 0 35px 0 0;
+  padding: 0 25px 0 0;
+}
+
+.Section-two-part-2-col-1 {
+  display: flex;
+  width: 90%;
 }
 
 .Section-two-ImgPlaceholder {
-  width: 100%;
+  width: 90%;
   height: auto;
   padding: 80px 0 30px;
 }
@@ -276,51 +277,199 @@ button {
   color: #fff;
 }
 
-.Section-Two-Project-Background {
-  background: white;
-  width: 100%;
-}
-
-.Section-Two-Projects-row-1-col-1 {
-  padding: 20px;
-}
-
-.Section-Two-Projects-row-1-col-2 {
-  padding: 20px;
-}
-
-.Section-Two-Projects-row-1-col-3 {
-  padding: 20px;
-}
-
-.Section-Two-Projects-row-2-col-1 {
-  padding: 20px;
-}
-
-.Section-Two-Projects-row-2-col-2 {
-  padding: 20px;
-}
-
-.Section-Two-Projects-row-2-col-3 {
-  padding: 20px;
-}
-
-.Project-Card-Works {
-  width: 100%;
-  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(./images/ImgsPlaceholder.png);
+.BackgroundProjects0,
+.BackgroundProjects1,
+.BackgroundProjects2,
+.BackgroundProjects3,
+.BackgroundProjects4,
+.BackgroundProjects5 {
+  background-size: cover;
+  padding: 110px 0 0 0;
+  transition: all 0.2s ease-in;
+  background-image: url(./images/ImgsPlaceholder.png);
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+  height: 430px;
 }
 
-.Project-Card-Title {
-  padding: 0 0 0 15px;
+.BackgroundProjects0 > ul,
+.BackgroundProjects1 > ul,
+.BackgroundProjects2 > ul,
+.BackgroundProjects3 > ul,
+.BackgroundProjects4 > ul,
+.BackgroundProjects5 > ul {
+  order: 3;
+}
+
+.TitleOfProjects {
+  color: #fff;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 50px;
+  order: 0;
+  flex-grow: 0;
+  padding: 20px;
+}
+
+.projectparagraph {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  order: 1;
+  flex-grow: 0;
+  color: #fff;
+  padding: 0 25px 0 15px;
+}
+
+.frame {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 20px 20px 20px;
+}
+
+.skill-image-tag {
+  width: 100%;
+  height: auto;
+}
+
+.projectbutton {
+  transition: all 0.2s ease-in;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  color: #fff;
+  width: 100%;
+  height: 50px;
+  background-color: #8f3c00;
+  justify-content: center;
+}
+
+.Pop-Ups {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(5px);
+  overflow-y: scroll;
+}
+
+.Pop-Ups-container {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  height: auto;
+  background: #fff;
+  border: 1px solid #ebecf0;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+}
+
+.Pop-Ups-row-1 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 80%;
-  color: #000;
-  background-color: none;
-  font-size: 1.875rem;
+  padding: 20px 20px 0 20px;
+  margin: 0;
+}
+
+.Pop-Ups-row-1 img {
+  padding: 26px 26px 0 26px;
+}
+
+.Pop-Ups-row-1 h2 {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #172b4d;
+}
+
+.Pop-Ups-row-2 {
+  display: flex;
+  list-style-type: none;
+  gap: 15px;
+  padding: 0 20px 0 20px;
+  margin: 0;
+}
+
+.popimage {
+  width: 95%;
+  height: auto;
+  margin: 0 10px 0 10px;
+  border: 1px solid green;
+}
+
+.framework-item {
+  border: 1px solid #979493;
+  padding: 5px;
+}
+
+.Pop-Ups-row-3 {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 3px;
+}
+
+.Pop-Ups-col-1 {
+  width: 100%;
+}
+
+.Pop-Ups-col-2 {
+  width: 100%;
+}
+
+.Pop-Ups-col-2 p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 0;
+  color: #344563;
+}
+
+.LivePlace {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 0;
+}
+
+.Livebutton {
+  background-color: #8f3c00;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.popup-modal {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: auto;
+  right: auto;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  height: 100%;
+  background: rgb(0, 0, 0, 0.03);
+  backdrop-filter: blur(16px);
+  width: 100%;
 }
 
 .Navbar-for-mob {
@@ -365,51 +514,6 @@ button {
   height: 15px;
   float: right;
   padding: 40px 40px 0 0;
-}
-
-.Project-Card-paragraph {
-  padding: 0 15px 15px 15px;
-  font-weight: 400;
-  font-size: 1.625rem;
-  line-height: 24px;
-  background-color: none;
-  color: #000;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-
-.Project-Card-skills {
-  padding: 0 40px;
-  gap: 12px;
-  flex: none;
-  order: 2;
-  flex-grow: 0;
-  list-style-type: none;
-}
-
-.Project-Card-Single-skills {
-  float: left;
-  margin: 0 13px 0 0;
-  background: rgba(255, 255, 255, 0.24);
-  padding: 15px;
-  color: white;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-}
-
-.Project-Card-Buttom {
-  order: 3;
-  width: 100%;
-  height: 48px;
-  left: 0;
-  top: 0;
-  color: #fff;
-  font-size: 20px;
-  background: #8f3c00;
 }
 
 .Section-Three {
@@ -712,7 +816,7 @@ button:hover {
 }
 
 .section-two-center-2 {
-  width: 400px;
+  width: auto;
   padding: 20px;
   height: auto;
   display: flex;
@@ -996,11 +1100,149 @@ button:hover {
     color: #fff;
   }
 
-  .Section-Two-Project-Background {
-    background: white;
+  .BackgroundProjects0,
+  .BackgroundProjects1,
+  .BackgroundProjects2,
+  .BackgroundProjects3,
+  .BackgroundProjects4,
+  .BackgroundProjects5 {
+    background-image: url(./images/ImgsPlaceholder.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .TitleOfProjects {
+    font-size: 32px;
+    line-height: 44px;
+    padding: 0;
+    margin: 0 16px 0 16px;
+  }
+
+  .projectparagraph {
+    font-size: 17px;
+    line-height: 24px;
+    padding: 0;
+    margin: 16px;
+  }
+
+  .frame {
+    padding: 0;
+    margin: 16px;
+    justify-content: flex-start;
+    gap: 10px;
+    list-style-type: none;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .Myprojects {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 24px;
+  }
+
+  .container-of-Myprojects {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    width: 100%;
+    background-color: #fff;
+    padding: 0 100px 100px 100px;
+    column-gap: 24px;
+    gap: 24px !important;
+  }
+
+  .Pop-Ups-container {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    height: auto;
+    background: #fff;
+    border: 1px solid #ebecf0;
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  }
+
+  .Pop-Ups-row-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 20px 0 20px;
+    margin: 0;
+  }
+
+  .Pop-Ups-row-1 img {
+    padding: 26px 26px 0 26px;
+  }
+
+  .popimage {
+    width: 95%;
+    height: auto;
+    border: 1px solid green;
+  }
+
+  .Pop-Ups-row-1 h2 {
+    font-family: 'Crete Round', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+  }
+
+  .Pop-Ups-row-2 {
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+    padding: 0 20px 0 20px;
+    margin: 0;
+  }
+
+  .framework-item {
+    border: 1px solid #979493;
+    padding: 10px 12px;
+  }
+
+  .Pop-Ups-row-3 {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .Pop-Ups-col-1 {
+    width: 60%;
+  }
+
+  .Pop-Ups-col-2 {
+    order: 1;
+    padding: 0;
+    width: 50%;
+  }
+
+  .Pop-Ups-col-2 p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 0 0 70px 0;
+    color: #344563;
+  }
+
+  .LivePlace {
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+    margin-bottom: 0;
+  }
+
+  .Livebutton {
+    background-color: #8f3c00;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    padding: 20px;
   }
 
   .Section-Three {
