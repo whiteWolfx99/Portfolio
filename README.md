@@ -1,20 +1,20 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio - mobile menu
+# Portfolio: details popup window
 
 ## Learning Objectives
 
 - Use basic JavaScript syntax.
 - Use JavaScript to manipulate DOM elements.
 - Use JavaScript events.
+- Understand how to parse a Figma design to create a UI.
+- Use objects to store and access data.
 
 ## Description 
 
-For this milestone of your portfolio website, you will implement the mobile menu using your recently acquired JavaScript knowledge.
+For this milestone of your portfolio website, you will implement a popup window that includes the project details in both desktop and mobile. In order to do that, you will need to store the information about your projects in a JavaScript object.
 
-IMPORTANT NOTE: Read all requirements before you start building your project.
-
-SECOND IMPORTANT NOTE: Remember to reach out to Student Success if you are experiencing difficulties with your partner. Difficulties might range from not hearing from your partner, your partner not having a proper working environment or your partner not following up with agreements on finishing projects. Student Success is here to support you and we can better help you when you reach out early in the week.
+IMPORTANT NOTE: Read all requirements before you start building your project.week.
 
 ## General requirements
 - Make sure that there are no linter errors.
@@ -24,15 +24,6 @@ SECOND IMPORTANT NOTE: Remember to reach out to Student Success if you are exper
 ## HTML/CSS & JavaScript requirements
 - Follow our list of best practices for HTML & CSS.
 - Follow our list of best practices for JavaScript.
-
-## Project requirements
-- For this project, you should add the JavaScript + HTML + CSS linter.
-- In mobile, implement the following features:
-  - When the user clicks (or taps) the hamburger button, the mobile menu appears.
-  - When the user clicks (or taps) the close (X) button, the mobile menu disappears.
-  - When the user clicks (or taps) any of the mobile menu options, the mobile menu disappears.
-  - When the user clicks (or taps) any of the mobile menu options, a correct part of the page is displayed.
-- You must stick to the design as much as possible (e.g., font, colors, images, text, margins) using the templates in Figma.
 
 ## Built With
 
