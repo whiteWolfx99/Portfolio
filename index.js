@@ -219,10 +219,9 @@ makeform.addEventListener('submit', (event) => {
   const regix = /[A-Z]/;
 
   if (regix.test(emailsfield.value)) {
-               alerterror.classList.remove('hidden');
-                    event.preventDefault();
-  }  
-   else if (!alerterror.classList.classname === 'hidden') {
-                 alerterror.classList.add('hidden');
+    alerterror.classList.remove('hidden');
+    event.preventDefault();
+  } else if (!alerterror.classList.classname === 'hidden') {
+    alerterror.classList.add('hidden');
   }
 });
