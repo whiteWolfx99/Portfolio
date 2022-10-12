@@ -18,6 +18,8 @@ const Projectdetail = [
     Title: 'profisional Art printing Data',
     paragraph:
       ' A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard',
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     image: '/images/ImgsPlaceholder.png',
     firstImage: './images/html.png',
     secondImage: './images/bootstrap.png',
@@ -30,6 +32,8 @@ const Projectdetail = [
     Title: 'profisional Art printing Data',
     paragraph:
       ' A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard',
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     image: '/images/ImgsPlaceholder.png',
     firstImage: './images/html.png',
     secondImage: './images/bootstrap.png',
@@ -42,6 +46,8 @@ const Projectdetail = [
     Title: 'profisional Art printing Data',
     paragraph:
       ' A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard',
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     image: '/images/ImgsPlaceholder.png',
     firstImage: './images/html.png',
     secondImage: './images/bootstrap.png',
@@ -54,6 +60,8 @@ const Projectdetail = [
     Title: 'profisional Art printing Data',
     paragraph:
       ' A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard',
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     image: '/images/ImgsPlaceholder.png',
     firstImage: './images/html.png',
     secondImage: './images/bootstrap.png',
@@ -66,6 +74,8 @@ const Projectdetail = [
     Title: 'profisional Art printing Data',
     paragraph:
       ' A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard',
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     image: '/images/ImgsPlaceholder.png',
     firstImage: './images/html.png',
     secondImage: './images/bootstrap.png',
@@ -78,6 +88,8 @@ const Projectdetail = [
     Title: 'profisional Art printing Data',
     paragraph:
       ' A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard',
+    description:
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
     image: '/images/ImgsPlaceholder.png',
     firstImage: './images/html.png',
     secondImage: './images/bootstrap.png',
@@ -91,7 +103,7 @@ function RpeatProjects() {
   let count;
   for (count = 0; count < Projectdetail.length; count += 1) {
     Myprojects.innerHTML
-    += `<div class="BackgroundProjects${[count]}">
+      += `<div class="BackgroundProjects${[count]}">
         <h2 class="TitleOfProjects">${Projectdetail[count].Title}</h2>
         <p class="projectparagraph">${Projectdetail[count].paragraph}</p>
         <ul class="frame">
@@ -142,14 +154,7 @@ function RpeatProjects() {
                           </div>
                           <div class="Pop-Ups-col-2">
                             <p>
-                              Lorem Ipsum is simply dummy text of the printing and typesetting
-                              industry. Lorem Ipsum has been the industry's standard dummy text
-                              ever since the 1500s, when an unknown printer took a galley of
-                              type and scrambled it 1960s with the releaLorem Ipsum is simply
-                              dummy text of the printing and typesetting industry. Lorem Ipsum
-                              has been the industry's standard dummy text ever since the 1500s,
-                              when an unknown printer took a galley of type and scrambled it
-                              1960s with the releax map lapora verita.
+                            ${project[0].description}                         
                             </p>
                             <h4 class="LivePlace">
                             <a
@@ -159,7 +164,7 @@ function RpeatProjects() {
                             /></a>
                             <a class="Livebutton"
                                 id="projectDetailButtonSource"
-                                href="https://github.com/whiteWolfx99/Portfolio"
+                                href="${project[0].githubLink}"
                                 >See Source <img src="./images/githubpop.png" alt=""
                               /></a>
                             </h4>
