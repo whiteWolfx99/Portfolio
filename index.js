@@ -210,3 +210,18 @@ PoNavigation.addEventListener('click', closeNavbar);
 AbNavigation.addEventListener('click', closeNavbar);
 CoNavigation.addEventListener('click', closeNavbar);
 document.addEventListener('DOMContentLoaded', RpeatProjects, false);
+
+const makeform = document.getElementById('Contact-form');
+const alerterror = document.getElementById('Alert-message');
+const emailsfield = document.getElementById('email-form');
+
+makeform.addEventListener('submit', (event) => {
+  const regix = /[A-Z]/;
+
+  if (regix.test(emailsfield.value)) {
+    alerterror.classList.remove('hidden');
+    event.preventDefault();
+  } else if (!alerterror.classList.classname === 'hidden') {
+    alerterror.classList.add('hidden');
+  }
+});
