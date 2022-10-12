@@ -7,6 +7,7 @@
 - Process user input according to business rules.
 - Use client-side validation to catch and throw errors in the UI.
 
+
 ## Description 
 
 For this milestone of your portfolio website, you will implement a client-side validation of the data in the contact form before submission.
