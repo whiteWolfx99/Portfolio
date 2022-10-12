@@ -216,9 +216,9 @@ const alerterror = document.getElementById('Alert-message');
 const emailsfield = document.getElementById('email-form');
 
 makeform.addEventListener('submit', (event) => {
-  const regix = /[A-Z]/;
+  const reg = /[A-Z]/;
 
-  if (regix.test(emailsfield.value)) {
+  if (reg.test(emailsfield.value)) {
     alerterror.classList.remove('hidden');
     event.preventDefault();
   } else if (!alerterror.classList.classname === 'hidden') {
