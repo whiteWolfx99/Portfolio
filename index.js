@@ -15,87 +15,75 @@ const generalDocument = document.getElementById('html');
 const Projectdetail = [
   {
     id: 0,
-    Title: 'profisional Art printing Data',
+    Title: 'todo list project by react',
     paragraph:
-      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard',
+      ' todo list website where you may add, edit, read, and delete tasks, built with React, if you refresh the page, your tasks will not be deleted.',
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    image: '/images/ImgsPlaceholder.png',
-    firstImage: './images/html.png',
-    secondImage: './images/bootstrap.png',
-    thirdImage: './images/ruby.png',
+      'todo list website where you may add, edit, read, and delete tasks, built with React',
+    image: '/images/screen1.png',
+    skils: 'react',
     LiveDemo: 'https://whitewolfx99.github.io/Portfolio/',
-    githubLink: 'https://github.com/whiteWolfx99/Portfolio',
+    githubLink: 'https://github.com/whiteWolfx99/CRUD-React',
   },
   {
     id: 1,
-    Title: 'profisional Art printing Data',
+    Title: 'blog project bult with react',
     paragraph:
-      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard',
+      ' blog website where you may add, edit, read, and delete posts, built with React, if you refresh the page, your posts will not be deleted.',
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    image: '/images/ImgsPlaceholder.png',
-    firstImage: './images/html.png',
-    secondImage: './images/bootstrap.png',
-    thirdImage: './images/ruby.png',
+    ' blog website where you may add, edit, read, and delete posts, built with React, if you refresh the page, your posts will not be deleted.',
+    image: '/images/screen2.png',
+    skils: 'react',
     LiveDemo: 'https://whitewolfx99.github.io/Portfolio/',
-    githubLink: 'https://github.com/whiteWolfx99/Portfolio',
+    githubLink: 'https://github.com/whiteWolfx99/BlogList',
   },
   {
     id: 2,
-    Title: 'profisional Art printing Data',
+    Title: 'Encrypted data app built with vue',
     paragraph:
-      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard',
+      'Encrypted data app built with vue, where you may encrypt your data and decrypt it. you can use it for password hashing.',
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    image: '/images/ImgsPlaceholder.png',
-    firstImage: './images/html.png',
-    secondImage: './images/bootstrap.png',
-    thirdImage: './images/ruby.png',
+      'Encrypted data app built with vue, where you may encrypt your data and decrypt it. you can use it for password hashing.',
+    image: '/images/screen3.png',
+    skils: 'vue',
     LiveDemo: 'https://whitewolfx99.github.io/Portfolio/',
     githubLink: 'https://github.com/whiteWolfx99/Portfolio',
   },
   {
     id: 3,
-    Title: 'profisional Art printing Data',
+    Title: 'awesome books built with javascript',
     paragraph:
-      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard',
+      'awesome books project built with javascript, which is a library app that allows you to add books to a list, remove books from the list.',
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    image: '/images/ImgsPlaceholder.png',
-    firstImage: './images/html.png',
-    secondImage: './images/bootstrap.png',
-    thirdImage: './images/ruby.png',
+      'awesome books project built with javascript, which is a library app that allows you to add books to a list, remove books from the list.',
+    image: '/images/screen4.png',
+    skils: 'javascript',
     LiveDemo: 'https://whitewolfx99.github.io/Portfolio/',
-    githubLink: 'https://github.com/whiteWolfx99/Portfolio',
+    githubLink: 'https://github.com/whiteWolfx99/Awesome-Books-Solo',
   },
   {
     id: 4,
-    Title: 'profisional Art printing Data',
+    Title: 'todo list project by javascript',
     paragraph:
-      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard',
+      ' todo list website where you may add, edit, read, and delete tasks, built with javascript, if you refresh the page, your tasks will not be deleted.',
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    image: '/images/ImgsPlaceholder.png',
-    firstImage: './images/html.png',
-    secondImage: './images/bootstrap.png',
-    thirdImage: './images/ruby.png',
+      'todo list website where you may add, edit, read, and delete tasks, built with javascript',
+    image: '/images/screen5.png',
+    skils: 'javascript',
     LiveDemo: 'https://whitewolfx99.github.io/Portfolio/',
-    githubLink: 'https://github.com/whiteWolfx99/Portfolio',
+    githubLink: 'https://github.com/whiteWolfx99/todolist',
   },
   {
     id: 5,
-    Title: 'profisional Art printing Data',
+    Title: 'confrere project by with html and css',
     paragraph:
-      ' A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry standard',
+      ' confrere project by with html and css, which is a website for student clubs in the university which is helping them to manage their activities.',
     description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.',
-    image: '/images/ImgsPlaceholder.png',
-    firstImage: './images/html.png',
-    secondImage: './images/bootstrap.png',
-    thirdImage: './images/ruby.png',
+    ' confrere project by with html and css, which is a website for student clubs in the university which is helping them to manage their activities.',
+    image: '/images/screen6.png',
+    skils: 'html and css',
     LiveDemo: 'https://whitewolfx99.github.io/Portfolio/',
-    githubLink: 'https://github.com/whiteWolfx99/Portfolio',
+    githubLink: 'https://github.com/whiteWolfx99/module1_capstone-',
   },
 ];
 
@@ -104,18 +92,16 @@ function RpeatProjects() {
   for (count = 0; count < Projectdetail.length; count += 1) {
     Myprojects.innerHTML
       += `<div class="BackgroundProjects${[count]}">
-        <h2 class="TitleOfProjects">${Projectdetail[count].Title}</h2>
-        <p class="projectparagraph">${Projectdetail[count].paragraph}</p>
-        <ul class="frame">
-            <li><a href=""><img class="skill-image-tag" src="${Projectdetail[count].firstImage}"
-                        alt="Rubi"></a>
-            </li>
-            <li><a href=""><img class="skill-image-tag" src="${Projectdetail[count].secondImage}"
-                        alt="Bootstrap"></a></li>
-            <li><a href=""><img class="skill-image-tag" src="${Projectdetail[count].thirdImage}"
-                        alt="HTML"></a></li>
-        </ul>
-        <button data-target="${Projectdetail[count].id}" type="submit" class="projectbutton">See Project</button>
+       <div class="Projectblack">
+       <h2 class="TitleOfProjects">${Projectdetail[count].Title}</h2>
+       <p class="projectparagraph">${Projectdetail[count].paragraph}</p>
+       <ul class="frame">
+       <li>
+       <p class="frameworkss">${Projectdetail[count].skils}</p>
+     </li>
+       </ul>
+       <button data-target="${Projectdetail[count].id}" type="submit" class="projectbutton">See Project</button>
+       </div>
     </div>`;
   }
 
@@ -136,21 +122,20 @@ function RpeatProjects() {
                             <h2>Keeping track of hundreds of components website</h2>
                           </div>
                           <div class="Pop-Ups-row-1-col-1">
-                            <img id="X-sign-2" src="./images/close.svg" alt="close" />
+                            <img id="X-sign-3" src="./images/close.svg" alt="close" />
                           </div>
                         </div>
                         <div class="Pop-Ups-row-2">
-                          <p class="framework-item">html</p>
-                          <p class="framework-item">bootstrap</p>
-                          <p class="framework-item">Ruby on Rails</p>
+                        <p class="framework-item">${Projectdetail[0].skils}</p>
                         </div>
                         <div class="Pop-Ups-row-3">
                           <div class="Pop-Ups-col-1">
                             <img
                               class="popimage"
-                              src="./images/Portfolio.png"
+                              src="${project[0].image}"
                               alt="Portfolio"
                             />
+                            
                           </div>
                           <div class="Pop-Ups-col-2">
                             <p>
@@ -173,7 +158,7 @@ function RpeatProjects() {
                           </div>`;
 
     Popups.classList.remove('hidden');
-    const popUpClose = document.getElementById('X-sign-2');
+    const popUpClose = document.getElementById('X-sign-3');
     popUpClose.addEventListener('click', hideModal);
     generalDocument.classList.add('scroll-null');
   }
