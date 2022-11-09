@@ -20,7 +20,7 @@ const Projectdetail = [
       ' todo list website where you may add, edit, read, and delete tasks, built with React, if you refresh the page, your tasks will not be deleted.',
     description:
       'todo list website where you may add, edit, read, and delete tasks, built with React',
-    image: '/images/screen1.png',
+    image: '/images/screen1.PNG',
     skils: 'react',
     LiveDemo: 'https://whitewolfx99.github.io/Portfolio/',
     githubLink: 'https://github.com/whiteWolfx99/CRUD-React',
@@ -32,7 +32,7 @@ const Projectdetail = [
       ' blog website where you may add, edit, read, and delete posts, built with React, if you refresh the page, your posts will not be deleted.',
     description:
     ' blog website where you may add, edit, read, and delete posts, built with React, if you refresh the page, your posts will not be deleted.',
-    image: '/images/screen2.png',
+    image: '/images/screen2.PNG',
     skils: 'react',
     LiveDemo: 'https://whitewolfx99.github.io/Portfolio/',
     githubLink: 'https://github.com/whiteWolfx99/BlogList',
@@ -44,7 +44,7 @@ const Projectdetail = [
       'Encrypted data app built with vue, where you may encrypt your data and decrypt it. you can use it for password hashing.',
     description:
       'Encrypted data app built with vue, where you may encrypt your data and decrypt it. you can use it for password hashing.',
-    image: '/images/screen3.png',
+    image: '/images/screen3.PNG',
     skils: 'vue',
     LiveDemo: 'https://whitewolfx99.github.io/Portfolio/',
     githubLink: 'https://github.com/whiteWolfx99/Portfolio',
@@ -56,7 +56,7 @@ const Projectdetail = [
       'awesome books project built with javascript, which is a library app that allows you to add books to a list, remove books from the list.',
     description:
       'awesome books project built with javascript, which is a library app that allows you to add books to a list, remove books from the list.',
-    image: '/images/screen4.png',
+    image: '/images/screen4.PNG',
     skils: 'javascript',
     LiveDemo: 'https://whitewolfx99.github.io/Portfolio/',
     githubLink: 'https://github.com/whiteWolfx99/Awesome-Books-Solo',
@@ -68,7 +68,7 @@ const Projectdetail = [
       ' todo list website where you may add, edit, read, and delete tasks, built with javascript, if you refresh the page, your tasks will not be deleted.',
     description:
       'todo list website where you may add, edit, read, and delete tasks, built with javascript',
-    image: '/images/screen5.png',
+    image: '/images/screen5.PNG',
     skils: 'javascript',
     LiveDemo: 'https://whitewolfx99.github.io/Portfolio/',
     githubLink: 'https://github.com/whiteWolfx99/todolist',
@@ -80,7 +80,7 @@ const Projectdetail = [
       ' confrere project by with html and css, which is a website for student clubs in the university which is helping them to manage their activities.',
     description:
     ' confrere project by with html and css, which is a website for student clubs in the university which is helping them to manage their activities.',
-    image: '/images/screen6.png',
+    image: '/images/screen6.PNG',
     skils: 'html and css',
     LiveDemo: 'https://whitewolfx99.github.io/Portfolio/',
     githubLink: 'https://github.com/whiteWolfx99/module1_capstone-',
